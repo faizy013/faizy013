@@ -83,6 +83,26 @@ A Django web app for tracking daily health activities — water intake, exercise
 
 ---
 
+---
+
+## 🌐 Portfolio Website
+
+### 🔗 [faizy013.github.io](https://faizy013.github.io)
+
+Personal portfolio website built and hosted using GitHub Pages.
+
+**Tech Used:** HTML · CSS · JavaScript · GitHub Pages
+
+- Responsive developer portfolio UI
+- Showcases skills, projects, and experience
+- Clean modern layout focused on backend/Frappe development
+- Direct contact and social links integration
+
+Repository:
+```bash
+https://github.com/faizy013/faizy013.github.io
+```
+
 ## 📫 Get In Touch
 
 If you're looking for a **Frappe/ERPNext developer** or a **Python backend engineer**, feel free to reach out:
