@@ -6,7 +6,7 @@
 </p>
 
 <p align="center">
-  <a href="https://www.linkedin.com/in/hafiz-umar-farooq-852716262/">
+  <a href="https://www.linkedin.com/in/muhammad-umar-farooq13">
     <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white" />
   </a>
   <a href="mailto:umarwork13@gmail.com">
@@ -87,7 +87,7 @@ A Django web app for tracking daily health activities — water intake, exercise
 
 If you're looking for a **Frappe/ERPNext developer** or a **Python backend engineer**, feel free to reach out:
 
-- 💼 LinkedIn: https://www.linkedin.com/in/hafiz-umar-farooq-852716262/
+- 💼 LinkedIn: https://www.linkedin.com/in/muhammad-umar-farooq13
 - 📧 Email: umarwork13@gmail.com
 
 ---
