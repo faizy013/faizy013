@@ -91,7 +91,7 @@
   <text x="375" y="414" class="bullet">.</text>
   <text x="392" y="414" class="label">Commits:</text>
   <text x="835" y="414" text-anchor="end">
-    <tspan id="commit_data" class="value">649</tspan>
+    <tspan id="commit_data" class="value">650</tspan>
     <tspan class="label">  |  Followers: </tspan>
     <tspan id="follower_data" class="value">0</tspan>
   </text>
@@ -99,11 +99,11 @@
   <text x="375" y="438" class="bullet">.</text>
   <text x="392" y="438" class="label">Lines of Code:</text>
   <text x="835" y="438" text-anchor="end">
-    <tspan id="loc_data" class="value">324,859</tspan>
+    <tspan id="loc_data" class="value">324,858</tspan>
     <tspan class="label"> (</tspan>
     <tspan id="loc_add" fill="#1a7f37" class="value">380,795</tspan>
     <tspan class="label">++, </tspan>
-    <tspan id="loc_del" fill="#cf222e" class="value">55,936</tspan>
+    <tspan id="loc_del" fill="#cf222e" class="value">55,937</tspan>
     <tspan class="label">--)</tspan>
   </text>
 
