@@ -1,4 +1,5 @@
-<svg width="860" height="480" viewBox="0 0 860 480" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" font-family="'Courier New', monospace">
+<?xml version='1.0' encoding='UTF-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="480" viewBox="0 0 860 480" font-family="'Courier New', monospace">
   <style>
     .bg     { fill: #ffffff; }
     .border { fill: none; stroke: #d0d7de; stroke-width: 1; }
@@ -10,34 +11,29 @@
     .avatar-ring { fill: none; stroke: #0969da; stroke-width: 2; }
   </style>
 
-  <rect class="bg" width="860" height="480" rx="10" />
-  <rect class="border" x="0.5" y="0.5" width="859" height="479" rx="10" />
+  <rect class="bg" width="860" height="480" rx="10"/>
+  <rect class="border" x="0.5" y="0.5" width="859" height="479" rx="10"/>
 
   <!-- Avatar column -->
   <defs>
     <clipPath id="avatarClipLight">
-      <circle cx="175" cy="240" r="120" />
+      <circle cx="175" cy="240" r="120"/>
     </clipPath>
   </defs>
-  <image
-    href="https://github.com/faizy013.png?size=400"
-    xlink:href="https://github.com/faizy013.png?size=400"
-    x="55" y="120" width="240" height="240"
-    clip-path="url(#avatarClipLight)"
-    preserveAspectRatio="xMidYMid slice" />
-  <circle class="avatar-ring" cx="175" cy="240" r="120" />
+  <image href="https://github.com/faizy013.png?size=400" xlink:href="https://github.com/faizy013.png?size=400" x="55" y="120" width="240" height="240" clip-path="url(#avatarClipLight)" preserveAspectRatio="xMidYMid slice"/>
+  <circle class="avatar-ring" cx="175" cy="240" r="120"/>
 
   <!-- Divider -->
-  <line x1="350" y1="30" x2="350" y2="450" stroke="#d0d7de" stroke-width="1" />
+  <line x1="350" y1="30" x2="350" y2="450" stroke="#d0d7de" stroke-width="1"/>
 
   <!-- Header -->
   <text x="375" y="40" class="head">faizi@faizy013</text>
   <text x="375" y="58" class="rule">─────────────────────────────────────────</text>
 
   <!-- System info block (EDIT THESE VALUES TO MATCH YOU) -->
-  <text x="375" y="82"  class="bullet">.</text>
-  <text x="392" y="82"  class="label">OS:</text>
-  <text x="835" y="82"  class="value" text-anchor="end">Ubuntu 22.04</text>
+  <text x="375" y="82" class="bullet">.</text>
+  <text x="392" y="82" class="label">OS:</text>
+  <text x="835" y="82" class="value" text-anchor="end">Ubuntu 22.04</text>
 
   <text x="375" y="106" class="bullet">.</text>
   <text x="392" y="106" class="label">Host:</text>
@@ -86,16 +82,16 @@
   <text x="375" y="390" class="bullet">.</text>
   <text x="392" y="390" class="label">Repos:</text>
   <text x="835" y="390" text-anchor="end">
-    <tspan id="repo_data" class="value">0</tspan>
+    <tspan id="repo_data" class="value">12</tspan>
     <tspan class="label"> {Contributed: </tspan>
-    <tspan id="contrib_data" class="value">0</tspan>
+    <tspan id="contrib_data" class="value">45</tspan>
     <tspan class="label">}</tspan>
   </text>
 
   <text x="375" y="414" class="bullet">.</text>
   <text x="392" y="414" class="label">Commits:</text>
   <text x="835" y="414" text-anchor="end">
-    <tspan id="commit_data" class="value">0</tspan>
+    <tspan id="commit_data" class="value">649</tspan>
     <tspan class="label">  |  Followers: </tspan>
     <tspan id="follower_data" class="value">0</tspan>
   </text>
@@ -103,14 +99,14 @@
   <text x="375" y="438" class="bullet">.</text>
   <text x="392" y="438" class="label">Lines of Code:</text>
   <text x="835" y="438" text-anchor="end">
-    <tspan id="loc_data" class="value">0</tspan>
+    <tspan id="loc_data" class="value">324,859</tspan>
     <tspan class="label"> (</tspan>
-    <tspan id="loc_add" fill="#1a7f37" class="value">0</tspan>
+    <tspan id="loc_add" fill="#1a7f37" class="value">380,795</tspan>
     <tspan class="label">++, </tspan>
-    <tspan id="loc_del" fill="#cf222e" class="value">0</tspan>
+    <tspan id="loc_del" fill="#cf222e" class="value">55,936</tspan>
     <tspan class="label">--)</tspan>
   </text>
 
   <!-- age_data kept off-screen so main.py's svg_overwrite call doesn't error; harmless if unused -->
-  <text x="-9999" y="-9999" id="age_data"></text>
+  <text x="-9999" y="-9999" id="age_data">21 years, 10 months, 14 days</text>
 </svg>
