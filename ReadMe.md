@@ -1,9 +1,13 @@
-<h1 align="center">Hi, I'm Muhammad Umar Farooq 👋</h1>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
   <img alt="faizy013's GitHub Stats" src="dark_mode.svg">
 </picture>
+
+
+
+<!-- <h1 align="center">Hi, I'm Muhammad Umar Farooq 👋</h1>
+
 <p align="center">
   <b>Python Developer &nbsp;|&nbsp; Frappe / ERPNext Specialist &nbsp;|&nbsp; Django Backend Engineer</b><br/>
   Building production-grade ERP solutions and web applications
@@ -118,4 +122,4 @@ If you're looking for a **Frappe/ERPNext developer** or a **Python backend engin
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=faizy013&label=Profile+Views&color=0e75b6&style=flat" alt="profile views" />
-</p>
+</p> -->
