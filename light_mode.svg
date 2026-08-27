@@ -102,7 +102,7 @@
   <text x="375" y="482" class="bullet">.</text>
   <text x="392" y="482" class="label">Commits:</text>
   <text x="835" y="482" text-anchor="end">
-    <tspan id="commit_data" class="value">653</tspan>
+    <tspan id="commit_data" class="value">654</tspan>
     <tspan class="label">  |  Followers: </tspan>
     <tspan id="follower_data" class="value">0</tspan>
   </text>
@@ -112,9 +112,9 @@
   <text x="835" y="506" text-anchor="end">
     <tspan id="loc_data" class="value">324,875</tspan>
     <tspan class="label"> (</tspan>
-    <tspan id="loc_add" fill="#1a7f37" class="value">380,872</tspan>
+    <tspan id="loc_add" fill="#1a7f37" class="value">380,873</tspan>
     <tspan class="label">++, </tspan>
-    <tspan id="loc_del" fill="#cf222e" class="value">55,997</tspan>
+    <tspan id="loc_del" fill="#cf222e" class="value">55,998</tspan>
     <tspan class="label">--)</tspan>
   </text>
 </svg>
