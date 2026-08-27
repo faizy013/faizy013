@@ -1,1 +1,57 @@
+<svg width="560" height="270" viewBox="0 0 560 270" xmlns="http://www.w3.org/2000/svg" font-family="'Courier New', monospace">
+  <style>
+    .bg { fill: #ffffff; }
+    .border { fill: none; stroke: #d0d7de; stroke-width: 1; }
+    .title { fill: #0969da; font-size: 15px; font-weight: bold; }
+    .label { fill: #57606a; font-size: 12.5px; }
+    .value { fill: #24292f; font-size: 12.5px; }
+    .avatar-ring { fill: none; stroke: #0969da; stroke-width: 2; }
+  </style>
 
+  <rect class="bg" width="560" height="270" rx="10" />
+  <rect class="border" x="0.5" y="0.5" width="559" height="269" rx="10" />
+
+  <!-- Avatar column -->
+  <defs>
+    <clipPath id="avatarClipLight">
+      <circle cx="105" cy="120" r="65" />
+    </clipPath>
+  </defs>
+  <image href="https://github.com/faizy013.png?size=200" x="40" y="55" width="130" height="130" clip-path="url(#avatarClipLight)" />
+  <circle class="avatar-ring" cx="105" cy="120" r="65" />
+  <text x="105" y="215" text-anchor="middle" class="title" font-size="14">faizy013</text>
+
+  <!-- Divider -->
+  <line x1="200" y1="25" x2="200" y2="245" stroke="#d0d7de" stroke-width="1" />
+
+  <!-- Stats column -->
+  <text x="225" y="40" class="title">faizy013's GitHub Stats</text>
+
+  <text x="225" y="70" class="label">🎂 Age:</text>
+  <text x="530" y="70" id="age_data" class="value" text-anchor="end">calculating...</text>
+
+  <text x="225" y="98" class="label">🔀 Contributed to (last year):</text>
+  <text x="530" y="98" id="commit_data" class="value" text-anchor="end">0</text>
+
+  <text x="225" y="126" class="label">⭐ Stars:</text>
+  <text x="530" y="126" id="star_data" class="value" text-anchor="end">0</text>
+
+  <text x="225" y="154" class="label">📦 Repos (owned):</text>
+  <text x="530" y="154" id="repo_data" class="value" text-anchor="end">0</text>
+
+  <text x="225" y="182" class="label">📚 Repos (contributed):</text>
+  <text x="530" y="182" id="contrib_data" class="value" text-anchor="end">0</text>
+
+  <text x="225" y="210" class="label">👥 Followers:</text>
+  <text x="530" y="210" id="follower_data" class="value" text-anchor="end">0</text>
+
+  <text x="225" y="238" class="label">💻 Lines of Code:</text>
+  <text x="530" y="238" text-anchor="end">
+    <tspan id="loc_data" class="value">0</tspan>
+    <tspan class="label"> (</tspan>
+    <tspan id="loc_add" fill="#1a7f37" class="value">0</tspan>
+    <tspan class="label">++, </tspan>
+    <tspan id="loc_del" fill="#cf222e" class="value">0</tspan>
+    <tspan class="label">--)</tspan>
+  </text>
+</svg>
