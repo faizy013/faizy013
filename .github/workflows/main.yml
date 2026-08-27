@@ -1,1 +1,44 @@
 
+name: GitHub Stats SVG
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # every 12 hours
+  workflow_dispatch:          # lets you trigger it manually from the Actions tab
+  push:
+    branches:
+      - main
+
+jobs:
+  update-stats:
+    name: Update stats SVG
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run stats generator
+        run: python main.py
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: faizy013
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "actions@github.com"
+          git config --local user.name "GitHub Actions"
+          git add dark_mode.svg light_mode.svg cache/
+          git diff --cached --quiet && echo "No changes to commit" || git commit -m "Update stats [skip ci]"
+          git push
