@@ -1,13 +1,4 @@
-<a href="https://github.com/faizy013/faizy013">
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
-  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
-  <img alt="faizy013's GitHub Stats" src="dark_mode.svg">
-</picture>
-</a>
-
-
-<!-- <h1 align="center">Hi, I'm Muhammad Umar Farooq 👋</h1>
+<h1 align="center">Hi, I'm Muhammad Umar Farooq</h1>
 
 <p align="center">
   <b>Python Developer &nbsp;|&nbsp; Frappe / ERPNext Specialist &nbsp;|&nbsp; Django Backend Engineer</b><br/>
@@ -25,17 +16,16 @@
 
 ---
 
-## 🧑‍💻 About Me
+## About Me
 
-- 🔧 I specialize in **Frappe Framework & ERPNext** — custom apps, doctypes, workflows, server scripts, and REST API integrations
-- 🐍 Strong background in **Python**, **Django**, and async task processing with **Celery + Redis**
-- 🏭 Most of my production work lives in **private client repositories** — portfolio and case studies available on request
-- 📍 Based in Lahore, Pakistan
-- 🤝 Open to freelance projects and full-time remote roles in ERP/backend development
+- I work mainly with **Frappe Framework and ERPNext**, building custom apps, doctypes, workflows, server scripts, and REST API integrations.
+- My backend work is mostly in **Python** and **Django**, including background processing with **Celery and Redis**.
+- Much of my production work is in **private client repositories**, so I can share portfolio details and case studies on request.
+- I am based in Lahore, Pakistan, and open to freelance and full-time remote opportunities in ERP and backend development.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 
 **Languages**
 
@@ -61,27 +51,27 @@
 
 ---
 
-## 💼 What I've Worked On (Private / Client Work)
+## What I've Worked On
 
 > Most production projects are under NDA or in private repositories.
 > Below is a summary of the types of systems I've built:
 
 | Domain | What I Built |
 |---|---|
-| 🏭 ERPNext Customization | Custom doctypes, workflows, print formats, role-based permissions |
-| 🔗 API Integration | Third-party REST API integrations via Frappe hooks and Python |
-| 📊 Custom Reporting | Script reports with complex filters, Jinja2 print templates |
-| ⚙️ Automation | Scheduled jobs, email alerts, bulk data processing scripts |
-| 🌐 Django Web Apps | Full-stack apps with Celery async tasks and push notifications |
+| ERPNext Customization | Custom doctypes, workflows, print formats, and role-based permissions |
+| API Integration | Third-party REST API integrations using Frappe hooks and Python |
+| Custom Reporting | Script reports with complex filters and Jinja2 print templates |
+| Automation | Scheduled jobs, email alerts, and bulk data processing scripts |
+| Django Web Apps | Full-stack applications with Celery tasks and push notifications |
 
 *Detailed case studies and code samples available on request.*
 
 ---
 
-## 📂 Public Projects
+## Public Projects
 
-### 🌿 [Wellness Tracker](https://github.com/faizy013/wellness-tracker)
-A Django web app for tracking daily health activities — water intake, exercise, sleep, and mood.
+### [Wellness Tracker](https://github.com/faizy013/wellness-tracker)
+A Django application for tracking daily health activities such as water intake, exercise, sleep, and mood.
 
 **Stack:** Django · Celery · Redis · APScheduler · Chart.js · WebPush (VAPID)
 
@@ -94,9 +84,9 @@ A Django web app for tracking daily health activities — water intake, exercise
 
 ---
 
-## 🌐 Portfolio Website
+## Portfolio Website
 
-### 🔗 [faizy013.github.io](https://faizy013.github.io)
+### [faizy013.github.io](https://faizy013.github.io)
 
 Personal portfolio website built and hosted using GitHub Pages.
 
@@ -112,15 +102,15 @@ Repository:
 https://github.com/faizy013/faizy013.github.io
 ```
 
-## 📫 Get In Touch
+## Get In Touch
 
 If you're looking for a **Frappe/ERPNext developer** or a **Python backend engineer**, feel free to reach out:
 
-- 💼 LinkedIn: https://www.linkedin.com/in/muhammad-umar-farooq13
-- 📧 Email: umarwork13@gmail.com
+- LinkedIn: https://www.linkedin.com/in/muhammad-umar-farooq13
+- Email: umarwork13@gmail.com
 
 ---
 
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=faizy013&label=Profile+Views&color=0e75b6&style=flat" alt="profile views" />
-</p> -->
+</p>
