@@ -1,5 +1,9 @@
 <h1 align="center">Hi, I'm Muhammad Umar Farooq 👋</h1>
-
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
+  <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
+  <img alt="faizy013's GitHub Stats" src="dark_mode.svg">
+</picture>
 <p align="center">
   <b>Python Developer &nbsp;|&nbsp; Frappe / ERPNext Specialist &nbsp;|&nbsp; Django Backend Engineer</b><br/>
   Building production-grade ERP solutions and web applications
