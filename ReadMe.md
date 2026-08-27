@@ -1,9 +1,10 @@
+<a>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="dark_mode.svg">
   <source media="(prefers-color-scheme: light)" srcset="light_mode.svg">
   <img alt="faizy013's GitHub Stats" src="dark_mode.svg">
 </picture>
-
+</a>
 
 
 <!-- <h1 align="center">Hi, I'm Muhammad Umar Farooq 👋</h1>
